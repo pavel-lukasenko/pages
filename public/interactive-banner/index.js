@@ -172,16 +172,16 @@
       'Kenzap-Sid': spaceID(),
   });
 
-  var Layout_Class = _createClass(function Layout_Class(data) {
+  var kGHM6O = _createClass(function kGHM6O(data) {
     var _this = this;
-    _classCallCheck(this, Layout_Class);
+    _classCallCheck(this, kGHM6O);
     _defineProperty(this, "render", function () {
       document.querySelector('#content').insertAdjacentHTML('beforeend', "\n        <section id=\"".concat(attr(_this.data.id), "\" class=\"kQFW7T ").concat(_this.data.c.classes ? attr(_this.data.c.classes) : '', "\" style=\"").concat(_this.data.c.section, "\">\n            <div class=\"container\" style=\"").concat(_this.data.c.container, "\">\n              ").concat(_this.data.header.value, "\n\n\n          </div>\n        </section>\n        "));
     });
     this.data = data;
     this.render();
   });
-  window.Layout_Class = Layout_Class;
+  window.kGHM6O = kGHM6O;
 
 })();
 //# sourceMappingURL=index.js.map
